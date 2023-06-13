@@ -36,17 +36,22 @@ Wondering what brings the 'groove' in GroovyGradientMesh? **Momentum** and **Dec
 - **Decay**: Decay controls how quickly the momentum slows down, thereby affecting how long the color transition effect lasts. A higher decay value means the effect will decay slower, leading to longer-lasting transitions.
 
 
+Imagine your current momentum as a groovy dance move. The intensity of your dance (momentum) is really high initially, but as the song progresses, you start to slow down. That's where decay comes in! If your decay value is 0.95, it's like telling your dancer-self to reserve 5% of your energy every time you move, effectively reducing the intensity by 5% each time.
+
+
 Mathematically, here's how it works:
+```
 - Initial Momentum = M (the original dance move's intensity)
 - Momentum after 1 decay cycle = M * Decay = M * 0.95 (you're dancing just a bit slower)
 - Momentum after 2 decay cycles = M * Decay^2 = M * (0.95)^2 (slowing down a little more)
 - Momentum after i decay cycles = M * Decay^i = M * (0.95)^i (Momentum reduces by 5% each cycle, represented by (0.95)^i)
-
+```
 As the decay cycles increase, your momentum decreases
 
 # **Momentum Amplifier** 
 Momentum Amplifier is a factor that amplifies the momentum, allowing you to control the strength of the color transitions:
-```
+
+```javascript
 momentumX = (mouseX / windowWidth - 0.5) * momentumAmplifier;
 momentumY = (mouseY / windowHeight - 0.5) * momentumAmplifier;
 
