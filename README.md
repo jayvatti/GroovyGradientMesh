@@ -62,7 +62,7 @@ For example, if momentumAmplifier is set to 2, the transition effect is like a g
 
 # **Padding: Multi-Gradient**
 Padding givessome extra space beyond the edges where the gradients can 'bounce' back.
-```
+``` javascript
 color.currentX = (color.currentX || color.startX) + momentumX;
 color.currentY = (color.currentY || color.startY) + momentumY;
 
