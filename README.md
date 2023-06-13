@@ -35,17 +35,45 @@ Wondering what brings the 'groove' in GroovyGradientMesh? **Momentum** and **Dec
 
 - **Decay**: Decay controls how quickly the momentum slows down, thereby affecting how long the color transition effect lasts. A higher decay value means the effect will decay slower, leading to longer-lasting transitions.
 
-And now, let's bring in some fun math!
 
-Imagine your current momentum as a groovy dance move. The intensity of your dance (momentum) is really high initially, but as the song progresses, you start to slow down. That's where decay comes in! If your decay value is 0.95, it's like telling your dancer-self to reserve 5% of your energy every time you move, effectively reducing the intensity by 5% each time.
-
-```
 Mathematically, here's how it works:
-- Initial Momentum = M (the original intensity)
-- Momentum after 1 decay cycle = M * Decay = M * 0.95 (a bit slower)
+- Initial Momentum = M (the original dance move's intensity)
+- Momentum after 1 decay cycle = M * Decay = M * 0.95 (you're dancing just a bit slower)
 - Momentum after 2 decay cycles = M * Decay^2 = M * (0.95)^2 (slowing down a little more)
-```
+- Momentum after i decay cycles = M * Decay^i = M * (0.95)^i (Momentum reduces by 5% each cycle, represented by (0.95)^i)
 
 As the decay cycles increase, your momentum decreases
 
-5 centers the coordinates aro
+# **Momentum Amplifier** 
+Momentum Amplifier is a factor that amplifies the momentum, allowing you to control the strength of the color transitions:
+```
+momentumX = (mouseX / windowWidth - 0.5) * momentumAmplifier;
+momentumY = (mouseY / windowHeight - 0.5) * momentumAmplifier;
+
+```
+Here, mouseX and mouseY represent the mouse's current position on the X and Y axes, respectively, and windowWidth and windowHeight are the dimensions of the window. Subtracting 0.5 centers the coordinates around zero, with -0.5 at the left or top edge and 0.5 at the right or bottom. By multiplying this result by momentumAmplifier, we determine how fast the gradient will change as the mouse moves across the window.
+
+For example, if momentumAmplifier is set to 2, the transition effect is like a groovy dance at double speed, whereas a momentumAmplifier of 0.5 would make the transition slow and smooth, like a graceful waltz.
+
+# **Padding: Multi-Gradient**
+Padding givessome extra space beyond the edges where the gradients can 'bounce' back.
+```
+color.currentX = (color.currentX || color.startX) + momentumX;
+color.currentY = (color.currentY || color.startY) + momentumY;
+
+if (color.currentX < -padding || color.currentX > 100 + padding) {
+    momentumX *= -1;
+    color.currentX = color.currentX < 0 ? -padding : 100 + padding;
+}
+if (color.currentY < -padding || color.currentY > 100 + padding) {
+    momentumY *= -1;
+    color.currentY = color.currentY < 0 ? -padding : 100 + padding;
+}
+
+```
+The color's current position (color.currentX or color.currentY) is updated by adding the respective momentum. If this position falls outside the range of -padding to 100 + padding (i.e., if the dancer steps off the dance floor), we reverse the direction of momentum (like a dancer bouncing off the wall), and make sure the color's current position stays within the 'dance floor' by setting it to the respective edge's padding value.
+
+By understanding the dynamics of momentum, decay, the momentum amplifier, and the role of padding in multi-gradients, we can choreograph an ever-changing, interactive color dance that brings a vibrant, groovy feel to your static web backgrounds. 
+
+
+
