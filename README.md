@@ -37,7 +37,7 @@ The project is primarily built in **React**, **jQuery**, and regular **DOM Manip
 
 In the `colors.json` file, you'll find all the pre-set color patterns. You're encouraged to change and add colors you prefer, making your web page as personalized as it can get!
 
-## Momentum & Decay: The Groovy Math Behind the Magic 🎩🔢
+## Momentum & Decay: The Groovy Math Behind the Magic 🎩
 
 Wondering what brings the 'groove' in GroovyGradientMesh? **Momentum** and **Decay**. These parameters control the fluidity and speed of color transitions, creating the smooth and immersive effect that defines GroovyGradientMesh.
 
