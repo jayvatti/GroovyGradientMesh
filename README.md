@@ -72,7 +72,7 @@ Here, mouseX and mouseY represent the mouse's current position on the X and Y ax
 For example, if momentumAmplifier is set to 2, the transition effect is like a groovy dance at double speed, whereas a momentumAmplifier of 0.5 would make the transition slow and smooth, like a graceful waltz.
 
 # **Padding: Multi-Gradient**
-Padding givessome extra space beyond the edges where the gradients can 'bounce' back.
+Padding gives some extra space beyond the edges where the gradients can 'bounce' back.
 ``` javascript
 color.currentX = (color.currentX || color.startX) + momentumX;
 color.currentY = (color.currentY || color.startY) + momentumY;
