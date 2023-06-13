@@ -91,6 +91,7 @@ The color's current position (color.currentX or color.currentY) is updated by ad
 
 If the gradient moves beyond these boundaries, it "bounces" back, creating a unique effect that keeps the movement contained within the viewport.
 
+#
 By understanding the dynamics of momentum, decay, the momentum amplifier, and the role of padding in multi-gradients, we can choreograph an ever-changing, interactive color dance that brings a vibrant, groovy feel to your static web backgrounds. 
 
 
