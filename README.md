@@ -10,8 +10,13 @@ Built with the intent of turning your dull static backgrounds into groovy, energ
 
 - **Radial Gradient**: Craft a circular pattern of colors to add depth and dynamism to your background.
 - **Momentum & Decay**: Control the smoothness and responsiveness of color transitions. These crucial parameters provide the 'groove' in GroovyGradientMesh. More on these later!
+- **Momentum Amplifier**: Modify the intensity of the color transition. This factor increases or decreases the speed of the 'groove'.
 - **Multi-Gradient**: Inject diversity and vibrancy into your color scheme, making it richer and more dynamic.
+- **Padding**: A cool trick in the multi-gradient setup to prevent the gradients from getting 'stuck' at the screen's edge.
 - **Bounce Effect**: The gradient transition doesn't have to end abruptly at the edges. Instead, the bounce effect allows a vibrant continuation. (Only for Mutli Gradient)
+  
+*Note: The 'Padding' feature is specific to the multi-gradient setup.*
+
 
 ## Development Progress 🚧
 
@@ -34,7 +39,6 @@ Wondering what brings the 'groove' in GroovyGradientMesh? **Momentum** and **Dec
 - **Momentum**: Just like in physics, 'momentum' here governs the speed and direction of the color transition based on your mouse movement. The greater the momentum, the faster the transition, providing an enhanced visual experience.
 
 - **Decay**: Decay controls how quickly the momentum slows down, thereby affecting how long the color transition effect lasts. A higher decay value means the effect will decay slower, leading to longer-lasting transitions.
-
 
 Imagine your current momentum as a groovy dance move. The intensity of your dance (momentum) is really high initially, but as the song progresses, you start to slow down. That's where decay comes in! If your decay value is 0.95, it's like telling your dancer-self to reserve 5% of your energy every time you move, effectively reducing the intensity by 5% each time.
 
