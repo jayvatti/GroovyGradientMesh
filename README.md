@@ -73,6 +73,8 @@ For example, if momentumAmplifier is set to 2, the transition effect is like a g
 
 # **Padding: Multi-Gradient**
 Padding gives some extra space beyond the edges where the gradients can 'bounce' back.
+
+If the gradient moves beyond these boundaries, it "bounces" back, creating a unique effect that keeps the movement contained within the viewport.
 ``` javascript
 color.currentX = (color.currentX || color.startX) + momentumX;
 color.currentY = (color.currentY || color.startY) + momentumY;
@@ -88,8 +90,6 @@ if (color.currentY < -padding || color.currentY > 100 + padding) {
 
 ```
 The color's current position (color.currentX or color.currentY) is updated by adding the respective momentum. If this position falls outside the range of -padding to 100 + padding (i.e., if the dancer steps off the dance floor), we reverse the direction of momentum (like a dancer bouncing off the wall), and make sure the color's current position stays within the 'dance floor' by setting it to the respective edge's padding value.
-
-If the gradient moves beyond these boundaries, it "bounces" back, creating a unique effect that keeps the movement contained within the viewport.
 
 #
 By understanding the dynamics of momentum, decay, the momentum amplifier, and the role of padding in multi-gradients, we can choreograph an ever-changing, interactive color dance that brings a vibrant, groovy feel to your static web backgrounds. 
