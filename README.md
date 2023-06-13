@@ -1,5 +1,7 @@
 # GroovyGradientMesh 🎨
 
+<span style="font-family:Papyrus; font-size: 28px;">&#x1F4D7;</span> **WORK IN PROGRESS**
+
 Welcome to **GroovyGradientMesh**, a fun and dynamic repository that makes your web background more alive than ever! This interactive project changes the background color based on your mouse movement, creating a smooth and aesthetic visual experience.
 
 ## Description
