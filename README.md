@@ -39,9 +39,13 @@ And now, let's bring in some fun math!
 
 Imagine your current momentum as a groovy dance move. The intensity of your dance (momentum) is really high initially, but as the song progresses, you start to slow down. That's where decay comes in! If your decay value is 0.95, it's like telling your dancer-self to reserve 5% of your energy every time you move, effectively reducing the intensity by 5% each time.
 
+```
 Mathematically, here's how it works:
-- Initial Momentum = M (the original dance move's intensity)
-- Momentum after 1 decay cycle = M * Decay = M * 0.95 (you're dancing just a bit slower)
+- Initial Momentum = M (the original intensity)
+- Momentum after 1 decay cycle = M * Decay = M * 0.95 (a bit slower)
 - Momentum after 2 decay cycles = M * Decay^2 = M * (0.95)^2 (slowing down a little more)
+```
 
 As the decay cycles increase, your momentum decreases
+
+5 centers the coordinates aro
