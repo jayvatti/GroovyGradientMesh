@@ -71,7 +71,7 @@ Here, mouseX and mouseY represent the mouse's current position on the X and Y ax
 
 For example, if momentumAmplifier is set to 2, the transition effect is like a groovy dance at double speed, whereas a momentumAmplifier of 0.5 would make the transition slow and smooth, like a graceful waltz.
 
-# **Padding: Multi-Gradient**
+# **Padding & the "bounce effect": Multi-Gradient**
 Padding gives some extra space beyond the edges where the gradients can 'bounce' back.
 
 If the gradient moves beyond these boundaries, it "bounces" back, creating a unique effect that keeps the movement contained within the viewport.
