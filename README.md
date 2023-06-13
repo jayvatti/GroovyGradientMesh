@@ -9,10 +9,15 @@ Built with the intent of turning your dull static backgrounds into groovy, energ
 ## Features
 
 - **Radial Gradient**: Craft a circular pattern of colors to add depth and dynamism to your background.
+
 - **Momentum & Decay**: Control the smoothness and responsiveness of color transitions. These crucial parameters provide the 'groove' in GroovyGradientMesh. More on these later!
+
 - **Momentum Amplifier**: Modify the intensity of the color transition. This factor increases or decreases the speed of the 'groove'.
+
 - **Multi-Gradient**: Inject diversity and vibrancy into your color scheme, making it richer and more dynamic.
+
 - **Padding**: A cool trick in the multi-gradient setup to prevent the gradients from getting 'stuck' at the screen's edge.
+
 - **Bounce Effect**: The gradient transition doesn't have to end abruptly at the edges. Instead, the bounce effect allows a vibrant continuation. (Only for Mutli Gradient)
   
 *Note: The 'Padding' feature is specific to the multi-gradient setup.*
