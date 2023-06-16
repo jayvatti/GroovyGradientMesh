@@ -1,104 +1,227 @@
 {
-    "color_pairs": [
+    "color_palettes": [
         {
             "pair1": {
-                "color_name": "Red",
-                "hex_value": "#FF0000"
+                "color1": {
+                    "name": "Dark Moss Green",
+                    "hex": "#557153"
+                },
+                "color2": {
+                    "name": "Grayish Olive Green",
+                    "hex": "#A9AF7E"
+                }
             },
             "pair2": {
-                "color_name": "Blue",
-                "hex_value": "#0000FF"
+                "color1": {
+                    "name": "Light Yellowish Green",
+                    "hex": "#E6E5A3"
+                },
+                "color2": {
+                    "name": "Muted Moss Green",
+                    "hex": "#7D8F69"
+                }
             }
         },
         {
             "pair1": {
-                "color_name": "Green",
-                "hex_value": "#008000"
+                "color1": {
+                    "name": "Red",
+                    "hex": "#FF0000"
+                },
+                "color2": {
+                    "name": "Dark Red",
+                    "hex": "#800000"
+                }
             },
             "pair2": {
-                "color_name": "Yellow",
-                "hex_value": "#FFFF00"
+                "color1": {
+                    "name": "Lime",
+                    "hex": "#00FF00"
+                },
+                "color2": {
+                    "name": "Green",
+                    "hex": "#008000"
+                }
             }
         },
         {
             "pair1": {
-                "color_name": "Cyan",
-                "hex_value": "#00FFFF"
+                "color1": {
+                    "name": "Blue",
+                    "hex": "#0000FF"
+                },
+                "color2": {
+                    "name": "Dark Blue",
+                    "hex": "#000080"
+                }
             },
             "pair2": {
-                "color_name": "Magenta",
-                "hex_value": "#FF00FF"
+                "color1": {
+                    "name": "Yellow",
+                    "hex": "#FFFF00"
+                },
+                "color2": {
+                    "name": "Olive",
+                    "hex": "#808000"
+                }
             }
         },
         {
             "pair1": {
-                "color_name": "Maroon",
-                "hex_value": "#800000"
+                "color1": {
+                    "name": "Orange",
+                    "hex": "#FFA500"
+                },
+                "color2": {
+                    "name": "Brown",
+                    "hex": "#A52A2A"
+                }
             },
             "pair2": {
-                "color_name": "Olive",
-                "hex_value": "#808000"
+                "color1": {
+                    "name": "Pink",
+                    "hex": "#FFC0CB"
+                },
+                "color2": {
+                    "name": "Deep Pink",
+                    "hex": "#FF69B4"
+                }
             }
         },
         {
             "pair1": {
-                "color_name": "Purple",
-                "hex_value": "#800080"
+                "color1": {
+                    "name": "Purple",
+                    "hex": "#800080"
+                },
+                "color2": {
+                    "name": "Dark Orchid",
+                    "hex": "#9932CC"
+                }
             },
             "pair2": {
-                "color_name": "Teal",
-                "hex_value": "#008080"
+                "color1": {
+                    "name": "Blue Violet",
+                    "hex": "#8A2BE2"
+                },
+                "color2": {
+                    "name": "Dark Violet",
+                    "hex": "#9400D3"
+                }
             }
         },
         {
             "pair1": {
-                "color_name": "Navy",
-                "hex_value": "#000080"
+                "color1": {
+                    "name": "Indigo",
+                    "hex": "#4B0082"
+                },
+                "color2": {
+                    "name": "Slate Blue",
+                    "hex": "#6A5ACD"
+                }
             },
             "pair2": {
-                "color_name": "Lime",
-                "hex_value": "#00FF00"
+                "color1": {
+                    "name": "Dark Slate Blue",
+                    "hex": "#483D8B"
+                },
+                "color2": {
+                    "name": "Dark Slate Gray",
+                    "hex": "#2F4F4F"
+                }
+            }
+        },
+                {
+            "pair1": {
+                "color1": {
+                    "name": "Dark Turquoise",
+                    "hex": "#00CED1"
+                },
+                "color2": {
+                    "name": "Turquoise",
+                    "hex": "#40E0D0"
+                }
+            },
+            "pair2": {
+                "color1": {
+                    "name": "Aquamarine",
+                    "hex": "#7FFFD4"
+                },
+                "color2": {
+                    "name": "Medium Aquamarine",
+                    "hex": "#66CDAA"
+                }
             }
         },
         {
             "pair1": {
-                "color_name": "Silver",
-                "hex_value": "#C0C0C0"
+                "color1": {
+                    "name": "Pale Green",
+                    "hex": "#98FB98"
+                },
+                "color2": {
+                    "name": "Lime Green",
+                    "hex": "#32CD32"
+                }
             },
             "pair2": {
-                "color_name": "Gray",
-                "hex_value": "#808080"
+                "color1": {
+                    "name": "Medium Spring Green",
+                    "hex": "#00FA9A"
+                },
+                "color2": {
+                    "name": "Yellow Green",
+                    "hex": "#9ACD32"
+                }
             }
         },
         {
             "pair1": {
-                "color_name": "Black",
-                "hex_value": "#000000"
+                "color1": {
+                    "name": "Olive Drab",
+                    "hex": "#556B2F"
+                },
+                "color2": {
+                    "name": "Olive Green",
+                    "hex": "#6B8E23"
+                }
             },
             "pair2": {
-                "color_name": "White",
-                "hex_value": "#FFFFFF"
+                "color1": {
+                    "name": "Olive",
+                    "hex": "#808000"
+                },
+                "color2": {
+                    "name": "Dark Khaki",
+                    "hex": "#BDB76B"
+                }
             }
         },
         {
             "pair1": {
-                "color_name": "Orange",
-                "hex_value": "#FFA500"
+                "color1": {
+                    "name": "Pale Goldenrod",
+                    "hex": "#EEE8AA"
+                },
+                "color2": {
+                    "name": "Dark Khaki",
+                    "hex": "#BDB76B"
+                }
             },
             "pair2": {
-                "color_name": "Pink",
-                "hex_value": "#FFC0CB"
-            }
-        },
-        {
-            "pair1": {
-                "color_name": "Brown",
-                "hex_value": "#A52A2A"
-            },
-            "pair2": {
-                "color_name": "Gold",
-                "hex_value": "#FFD700"
+                "color1": {
+                    "name": "Khaki",
+                    "hex": "#F0E68C"
+                },
+                "color2": {
+                    "name": "Goldenrod",
+                    "hex": "#DAA520"
+                }
             }
         }
     ]
 }
+
+
+           
