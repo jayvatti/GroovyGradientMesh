@@ -10,11 +10,11 @@ body{
 }
 
 .box{
-    width:600px;
+    width:500px;
     margin:20px auto;
     background-color: #FFA500;
     border: 5px solid #FEF9A7;
-    padding:20px;
+    padding:5px;
     text-align: center;
     border-radius:20px;
     transition: transform 0.3s ease-in-out;
@@ -23,28 +23,42 @@ body{
 .box:hover {
     transform: scale(1.05);
     background-color:#F79327;
+    border-color: #F7DB6A;
 }
 
 h1{
     text-align: center;
     margin-top:30px;
-    font-size:40px;
+    font-size:30px;
     color:#B8E8FC;
     text-transform: uppercase;
     text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 a{
+    font-size: 33px;
 }
 
 a{
     display: inline-block;
-    font-size:25px;
+    font-size:20px;
     text-align: center;
     color:white;
     text-decoration: none;
     transition: color 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
+h1 a:hover{
+    color: #B8E8FC;
+    transform: scale(1.1);
+}
+
 
 a:hover{
-    transform: scale(1.1);
+    color: #080202;
+    transform: scale(1.05);
 }
 
 a:active {
